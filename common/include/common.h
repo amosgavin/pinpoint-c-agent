@@ -31,7 +31,7 @@
 
 //fix #129
 //#ifndef uint
-//#define uint unsigned int
+#define uint unsigned int
 //#endif
 
 #define MAX_VEC 512
