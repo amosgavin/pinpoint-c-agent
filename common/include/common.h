@@ -30,9 +30,9 @@
 #endif
 
 //fix #129
-//#ifndef uint
-#define uint unsigned int
-//#endif
+#ifndef uint
+typedef unsigned int uint;
+#endif
 
 #define MAX_VEC 512
 #define LOG_SIZE 4096
