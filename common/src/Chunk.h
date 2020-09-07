@@ -29,6 +29,10 @@
 #include <functional>
 #include <iostream>
 
+#ifndef uint
+#define uint unsigned int
+#endif
+
 class Chunks
 {
 
